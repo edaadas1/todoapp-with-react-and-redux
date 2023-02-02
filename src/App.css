@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.input-and-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.button{
+    border: none;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
+
+.todolist{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+}
